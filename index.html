@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="css/style.css">
+
+	<title>Assignment #4</title>
+	
+</head>
+<body>
+
+	<h2> Question 1</h2>
+	<button id="button1"> Button 1!</button>
+	<button id="button2"> Button 2!!</button>
+	<section id="container">
+		
+	</section>
+
+	<h2>Question 2</h2>
+	<section id=hover>Don't hover over me</section>
+	
+	<h2>Question 3 and 4</h2>
+	<section id="q5">
+		<form>
+		Username: <input type="text" name="Username" id="input1"><br>
+		Email: <input type="text" name="Email"><br>
+		Password: <input type="text" name="Password" id="input2"><br>
+		<button id="b5"  value="Submit" onClick="clickingOnTheSubmitButton(event)">Submit</button>
+		</form>
+
+	</section>
+
+	<!--BONUS-->
+    <section class="volume-calculator">
+        <h1>Volume of a Sphere </h1>
+
+        <form id="sphere-volume-form" onsubmit="return calculateVolume()">
+            <label for="radius">Enter radius: </label>
+            <input type="number" id="radius" name="radius">
+
+            <input id="calculateBtn" type="submit" value="Calculate">
+        </form>
+
+        <div id="answer">
+            <h4>The volume is: </h4>
+            <h4 id="volume-answer"></h4>
+        </div>
+
+    </section>
+
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="js/script.js" type="text/javascript"></script>
+	
+</body>
+
+</html>
